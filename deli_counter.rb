@@ -25,9 +25,9 @@ def take_a_number (katz_deli, string)
 end
 
 def now_serving (array)
-  if katz_deli.length == 0
+  if array.length == 0
     puts "There is nobody waiting to be served!"
-  elsif katz_deli.length >= 1
+  elsif array.length >= 1
     puts "Currently serving #{array[0]}."
   end
 
